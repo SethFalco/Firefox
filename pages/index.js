@@ -3,18 +3,18 @@ import Head from 'next/head'
 export default function Home() {
   const sources = [
     {
-      src: "/1080.webp",
-      srcSet: "/1080.webp 1x, /2160.webp 2x",
+      src: "/Firefox/1080.webp",
+      srcSet: "/Firefox/1080.webp 1x, /Firefox/2160.webp 2x",
       media: "(min-width: 769px)"
     },
     {
-      src: "/353.webp",
-      srcSet: "/353.webp 1x, /706.webp 2x",
+      src: "/Firefox/353.webp",
+      srcSet: "/Firefox/353.webp 1x, /Firefox/706.webp 2x",
       media: "(min-width: 481px) and (max-width: 768px)"
     },
     {
-      src: "/362.webp",
-      srcSet: "/362.webp 1x. /724.webp 2x",
+      src: "/Firefox/362.webp",
+      srcSet: "/Firefox/362.webp 1x. /Firefox/724.webp 2x",
       media: "(max-width: 480px)"
     }
   ]
